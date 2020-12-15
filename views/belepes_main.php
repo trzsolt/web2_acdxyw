@@ -7,7 +7,7 @@
 <hr><br>
 <h2>Regisztráció</h2>
 <p>Még nem regisztráltál? Itt a lehetőség!</p>
-<form name="regisztracio" action="belepes_main.php" method="post">
+<form name="regisztracio" action="<?= SITE_ROOT ?>regisztral" method="post">
 	  <label for="csaladi_nev">Családi név:</label><input type = "text" name="csaladi_nev" id = "csaladi_nev"><br>
       <label for="utonev">Utónév:</label><input type = "text" name="utonev" id = "utonev"><br>
       <label for="login">Felhasználó:</label><input type = "text" name="login" id = "login"><br>
