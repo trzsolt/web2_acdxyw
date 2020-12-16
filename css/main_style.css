@@ -65,3 +65,14 @@ select {
 }
 
 
+.user {
+	font-weight: bold;
+}
+.idopont {
+	color: brown;
+}
+.kommentszoveg {
+	color: grey;
+}
+
+
