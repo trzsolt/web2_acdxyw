@@ -74,13 +74,14 @@ CREATE TABLE IF NOT EXISTS `menu` (
 --
 
 INSERT INTO `menu` (`url`, `nev`, `szulo`, `jogosultsag`, `sorrend`) VALUES
-('admin', 'Admin', '', '001', 80),
-('szemelyesen', 'Személyesen', 'elerhetoseg', '111', 40),
-('belepes', 'Belépés', '', '100', 60),
+('admin', 'Admin', '', '001', 90),
+('szemelyesen', 'Személyesen', 'elerhetoseg', '111', 50),
+('belepes', 'Belépés', '', '100', 70),
 ('elerhetoseg', 'Elérhetőség', '', '111', 20),
-('elektronikus', 'Elektronikus úton', 'elerhetoseg', '111', 50),
-('kilepes', 'Kilépés', '', '011', 70),
-('galeria', 'Galéria', '', '101', 30),
+('elektronikus', 'Elektronikus úton', 'elerhetoseg', '111', 60),
+('kilepes', 'Kilépés', '', '011', 80),
+('galeria', 'Galéria', '', '101', 40),
+('jatekajanlo', 'Játékajánló', '', '111', 30),
 ('nyitolap', 'Nyitólap', '', '111', 10);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

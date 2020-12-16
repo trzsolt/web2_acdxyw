@@ -27,7 +27,7 @@ ul {
 }        
 a {
     float:left;
-    width:9em;
+    width:8em;
     text-decoration:none;
     color: #A95A00;
     background-color: #FFD09A;
@@ -43,4 +43,21 @@ a:hover {
 	background-color:#FFBF54;
 	color: #875400;
 }
-li { display:inline }
+li {
+	display:inline 
+}
+
+#jatekajanlo {
+      text-align: center;
+	  padding: 10px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+select {
+  width: 200px;
+}
+
+

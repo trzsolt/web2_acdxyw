@@ -4,10 +4,12 @@
         <meta charset="utf-8">
         <title>Társasjátékok Ünnepe 2021</title>
 		
+		<?php echo '<script type="text/javascript" src = "' . SITE_ROOT . 'includes/jquery.min.js"></script><script type="text/javascript" src = "' . SITE_ROOT . 'controllers/jatekajanlo.js"></script>' ?>
+		
 		
 		<?php echo '<link rel="shortcut icon" type="image/png" href="' . SITE_ROOT . 'logo.png"/>' ?>
         <link rel="stylesheet" type="text/css" href="<?php echo SITE_ROOT?>css/main_style.css">
-        <?php if($viewData['style']) echo '<link rel="stylesheet" type="text/css" href="'.$viewData['style'].'">'; ?>
+        <?php if($viewData['style']) echo '<link rel="stylesheet" type="text/css" href="'.$viewData['style'].'">'; ?>		
     </head>
     <body>
 		<table width="50%" align="center">

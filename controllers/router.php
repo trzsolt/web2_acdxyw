@@ -8,6 +8,9 @@ if(! isset($_SESSION['userlevel'])) $_SESSION['userlevel'] = "1__";
 
 include(SERVER_ROOT . 'includes/database.inc.php');
 include(SERVER_ROOT . 'includes/menu.inc.php');
+//include(SERVER_ROOT . 'includes/jquery.min.js');
+
+
 
 // Felbontjuk a paramétereket. Az & elválasztó jellel végzett felbontás
 // megfelelõ lesz, elsõ eleme a megtekinteni kívánt oldal neve.
