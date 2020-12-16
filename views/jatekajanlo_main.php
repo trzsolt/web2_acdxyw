@@ -20,8 +20,9 @@
 </div>
 <div id = 'kommentiras' align='center'>
 	<textarea class="kommentbox" id="komment" placeholder="Szólj hozzá!" cols="80" rows="8"></textarea><br>
-	<button class="balklikk" id="ujKomment>Küldés</button>
-</div
+	<button class="balklikk" id="ujKomment">Küldés</button>
+</div>
+
 <div class = "kommentblokk">
 	<div class = "komment">
 		<div class = "user">Teszt Jakab <span class = "idopont">2020. 12. 16.</span></div>
