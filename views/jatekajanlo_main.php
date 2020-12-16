@@ -25,7 +25,7 @@
 
 <div class = "kommentblokk">
 	<div class = "komment">
-		<div class = "user">Teszt Jakab <span class = "idopont">2020. 12. 16.</span></div>
+		<div class = "user">Teszt Jakab <span class = "idopont">2020-12-16 17:31:09</span></div>
 		<div class = "kommentszoveg">Ez itt egy komment.</div>
 	</div>
 </div>
