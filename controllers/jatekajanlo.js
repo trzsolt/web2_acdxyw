@@ -61,11 +61,11 @@ function jatek() {
             "models/jatekajanlo_model.php",
             {"op" : "info", "id" : jatekid},
             function(data) {
-                $("#kep").text(data.kep);
+                $("#kep").html("<img src=images/" + data.kep + " width=85%>");
                 $("#nev").text(data.nev);
-                $("#jatekosszam").text(data.jatekosszam);
-                $("#jatekido").text(data.jatekido);
-				$("#leiras").text(data.leiras);
+                $("#jatekosszam").html("<br><strong>Játékosszám:</strong> " + data.jatekosszam);
+                $("#jatekido").html("<br><strong>Játékidő:</strong> " + data.jatekido);
+				$("#leiras").html("<br><strong>Leírás:</strong> " + data.leiras);
             },
             "json"                                                    
         );
@@ -79,5 +79,9 @@ $(document).ready(function() {
    $("#jatekosselect").change(kategoriak);
    $("#jatekselect").change(jatek);
    
-   
+  // $(".adat").hover(function() {
+  //      $(this).css({"color" : "white", "background-color" : "black"});
+  //  }, function() {
+  //     $(this).css({"color" : "black", "background-color" : "white"});
+   // });
 });

@@ -57,6 +57,7 @@
         $stmt->execute(Array(":id" => $_POST["id"]));
         if($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
               $eredmeny = array("kep" => $row['kep'], "nev" => $row['nev'], "jatekosszam" => $row['jatekosszam'], "jatekido" => $row['jatekido'], "leiras" => $row['leiras'],);
+			  
         }
       }
       catch(PDOException $e) {

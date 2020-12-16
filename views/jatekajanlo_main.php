@@ -12,9 +12,9 @@
       <select id = 'jatekselect'></select>
 </div>
 <div id= 'jatekajanlo'>
-        <span class="cimke">Kép:</span><span id="kep" class="adat"></span><br>
-        <span class="cimke">Név:</span><span id="nev" class="adat"></span><br>
-        <span class="cimke">Játékosszám:</span><span id="jatekosszam" class="adat"></span><br>
-        <span class="cimke">Játékidő:</span><span id="jatekido" class="adat"></span><br>
-		<span class="cimke">Leírás:</span><span id="leiras" class="adat"></span>
+        <span id="kep" class="adat"></span><br>
+        <span class="jateknev"><span id="nev" class="adat"></span></span><br>
+        <span id="jatekosszam" class="adat"></span><br>
+        <span id="jatekido" class="adat"></span><br>
+		<span id="leiras" class="adat"></span>
 </div>
